@@ -1,3 +1,5 @@
+package taskOne;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -15,7 +17,7 @@ public class Parentheses {
         }
     }
 
-    public static long parentheses(int n) { // Recursive function to calculate the number n Catalan
+    public static long parentheses(int n) { // Recursive function to calculate the number Catalan
         int[] array = new int[n + 1];// Create massive for array[i].
         array[0] = 1;
         for (int i = 1; i <= n; i++) { // Create outer round for calculate array[n].
